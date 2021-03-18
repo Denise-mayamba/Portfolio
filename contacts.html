@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My contacts page</title>
+  <link rel="stylesheet" href="contacts.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact me</h2>
+      <p> Write your message to me :</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="https://aquariusbandb.be/wp-content/uploads/2017/07/contact-us-icon.jpg" alt="https://aquariusbandb.be/wp-content/uploads/2017/07/contact-us-icon.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">Voornaam /First name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Achternaam /Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Belgium">Belgie/Belgium</option>
+            <option value="Nederland">Nederland/Netherlands</option>
+            <option value="Duitsland">Duitsland/Germany</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a class="active" href="contacts.html">Contact</a></li>
+  </ul>
+    
+    <div class="wrapper">
+      <div class="box1">Telefoonnummer
+        <br />
+        0468675890
+      </div>
+      <div class="box2">Email<br />
+        Denisemayamba@hotmail </div>
+      <div class="box3">Adres<br />
+        Vanlierdestraat 1, 9470 Denderleeuw
+      </div>
+    </div>
